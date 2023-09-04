@@ -1,0 +1,184 @@
+/* estilização do cabeçalho */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+  margin: 0px;
+  background-color: #045694;
+ 
+}
+div{
+    margin-bottom: 2px;
+}
+.div-1{
+    display: flex;
+   flex-direction: row;
+   padding-bottom: 10px;
+   justify-content: flex-end;
+   border-bottom: 1px solid white;
+   align-items: center;
+}
+
+.div-2{
+    display: flex;
+   justify-content: space-between;
+   padding: 20px 30px;
+   align-items: center;
+
+}
+#lista-1{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    color: white;
+    padding-right: 10px;
+}
+#lista-2{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+ul{
+display: flex;
+gap: 25px;
+list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.9;
+}
+a:hover{
+    opacity: 1;
+}
+.img{
+    background-color: white;
+}
+
+/* estilização do main */
+.secao-1{
+    ;
+    height: 750px;
+    display: flex;
+}
+
+.div-secao{
+    border: none;
+}
+
+.watch-fifa{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("imagem1.webp");
+    background-size: cover;
+    background-position-y: center;
+    color: white;
+}
+
+.watch-fifa button{
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+    background-image: linear-gradient(111.98deg,#00b8ff 18.07%,#1574c4 90.31%);
+}
+.watch-fifa button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.copa{
+    flex-basis: 75%;
+    background-image: url(https://digitalhub.fifa.com/transform/d76c597f-84a8-4f97-848e-d14777db4499/Argentina-v-France-Final-FIFA-World-Cup-Qatar-2022?io=transform:fill,height:868,width:1536&quality=75);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 70px;
+    color: white;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.9;
+}
+
+/* Formatação section 2 */
+.cards{
+display: flex;
+gap: 20px;
+font-size: small;
+padding: 23px;
+}
+
+.secao-2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.9;
+}
+h1{
+    padding-top: 23px;
+    padding-left: 23px;
+}
+main img{
+    border-radius: 15px;
+}
+.cards button{
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+background-image: linear-gradient();
+
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 2%;
+}
+/* Formatação section 3 */
+.cards2{
+    display: flex;
+gap: 20px;
+font-size: small;
+padding: 23px;
+}
+
+.secao-3{
+    background-color: #045694;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.9;
+
+}
+/* formatação section 4 */
+.cards3{
+    display: flex;
+gap: 20px;
+font-size: small;
+padding: 23px;
+}
+
+.secao-4{
+    background-color: #045694;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.9;
+}
+/* formatação section 5 */
+
+.plano-de-fundo{
+background-image: url(https://digitalhub.fifa.com/transform/81be39fe-e184-484c-9254-75b6cb15655f/FPLS_FIFAStore_Banner_01?io=transform:fill,aspectratio:21x9,width:3840&quality=75);
+
+}
